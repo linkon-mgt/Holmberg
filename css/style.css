@@ -1,0 +1,798 @@
+/*=====================================
+|   |   |    common css start | |   |   |
+=========================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+    padding-bottom: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+html,
+body {
+    scroll-behavior: unset !important;
+}
+
+/*=====================================
+|   |   |    common css end | |   |   |
+=========================================*/
+
+
+/*=====================================
+|   |   |    navbar css end | |   |   |
+=========================================*/
+.navbar {
+    padding: 30px 0;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding: 0 18px;
+}
+.navbar-nav .nav-item  .nav-link{
+    transition: all linear 0.3s;
+}
+.navbar-nav .nav-item:hover .nav-link{
+    color:#FFBD2F;
+}
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #000;
+}
+
+.btn-primary i {
+    color: #000;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #000;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #000;
+    box-shadow: none;
+}
+
+.sign-up-button button {
+    width: 145px;
+    height: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    background-color: #FF3A44;
+    border-radius: 20px;
+}
+
+.top-color {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 8px;
+    width: 45px;
+    background-color: #0B4C61;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* sticky menu css start */
+.sticky-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0074aa;
+    animation: sticky 1s linear;
+    z-index: 99999;
+    padding: 15px 0;
+}
+
+@keyframes sticky {
+    0% {
+        top: -50px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+/* sticky menu css end */
+/*=====================================
+|   |   |    navbar css end | |   |   |
+=========================================*/
+
+
+/*=====================================
+|   |   |    banner css start | |   |   |
+=========================================*/
+#banner {
+    padding: 70px 0;
+}
+
+.banner-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #222;
+    line-height: 58px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding-right: 43px;
+}
+
+.banner-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #888;
+    line-height: 27px;
+    margin-bottom: 35px;
+    padding-right: 111px;
+}
+
+.banner-content button {
+    width: 230px;
+    height: 52px;
+    border: none;
+    background-color: #FF3A44;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.banner-img {
+    position: relative;
+}
+
+.banner-img-circle {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-pic {
+    position: relative;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.banner-pic::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.banner-line1 {
+    position: absolute;
+    top: 30px;
+    right: -100px;
+    z-index: -1;
+}
+
+.banner-line2 {
+    position: absolute;
+    bottom: -50px;
+    left: -100px;
+    z-index: -1;
+}
+
+/*=====================================
+|   |   |    banner css end | |   |   |
+=========================================*/
+
+
+/*=====================================
+|   |   |    about css end | |   |   |
+=========================================*/
+#about {
+    background: url(../images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.heading h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 48px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.heading p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #D8D8D8;
+    line-height: 28px;
+    margin-bottom: 70px;
+    padding: 0 110px;
+}
+
+.about-item {
+    background-color: #FF3A44;
+    border-radius: 20px;
+}
+
+.about-item-content i {
+    width: 80px;
+    height: 80px;
+    background-color: #0B4C61;
+    line-height: 87px;
+    margin-top: 45px;
+    margin-bottom: 17px;
+    font-size: 32px;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 7px rgba(11, 75, 97, 0.3);
+
+}
+
+.about-item-content h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 32px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.about-item-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 90px;
+}
+
+.about-middle {
+    background-color: #FFBD2F;
+}
+
+.about-right {
+    background-color: #0489CA;
+}
+
+.about-item-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.about-line1 {
+    position: absolute;
+    top: 75px;
+    left: -115px;
+    z-index: -1;
+}
+
+.about-line2 {
+    position: absolute;
+    bottom: 75px;
+    right: -115px;
+    z-index: -1;
+}
+
+/*=====================================
+|   |   |    about css end | |   |   |
+=========================================*/
+
+
+/*=====================================
+|   |   |    service css end | |   |   |
+=========================================*/
+#service {
+    background-color: #0B4C61;
+    padding: 30px 0;
+}
+
+.service-number h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #FFBD2F;
+}
+
+.service-content h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+
+.service-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #d8d8d8;
+    line-height: 25px;
+}
+
+.service-item {
+    margin-bottom: 55px;
+}
+
+.service-heading {
+    margin-bottom: 50px;
+}
+
+/*=====================================
+|   |   |    service css end | |   |   |
+=========================================*/
+
+
+/*=====================================
+|   |   |    statistic css end | |   |   |
+=========================================*/
+#static {
+    padding: 50px 0;
+    background-color: #0B4C61;
+}
+
+.static-item {
+    background-color: #0C5F79;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.static-number {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #0489CA;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.static-number h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 25px;
+}
+
+.static-content {
+    margin-left: 15px;
+}
+
+.static-content h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    line-height: 18px;
+}
+
+.static-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #D0D0D0;
+    line-height: 25px;
+    padding-bottom: 15px;
+}
+
+.second-number {
+    background-color: #FFBD2F;
+}
+
+.third-number {
+    background-color: #FF3A44;
+}
+
+.static-pic {
+    margin-top: 30px;
+}
+
+.static-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+.static-pic {
+    background-color: #0B4C61;
+}
+
+.static-line {
+    position: absolute;
+    bottom: 105px;
+    right: -150px;
+    z-index: -1;
+}
+
+/*=====================================
+|   |   |    statistic css end | |   |   |
+=========================================*/
+
+
+/*=====================================
+|   |   |    review css start | |   |   |
+=========================================*/
+#review {
+    background-color: #0B4C61;
+    padding: 70px 0;
+}
+
+.review-bg {
+    position: relative;
+    z-index: 1;
+}
+
+.review-line1 {
+    position: absolute;
+    top: 70px;
+    left: -80px;
+    z-index: -1;
+}
+
+.review-line2 {
+    position: absolute;
+    bottom: -10px;
+    right: -40px;
+    z-index: -1;
+}
+
+.review-icon i {
+    font-size: 66px;
+    color: #FFBD2F;
+    padding-bottom: 25px;
+}
+
+.review-content {
+    padding-left: 10px;
+}
+
+.review-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #c6c6c6;
+    line-height: 32px;
+    padding-bottom: 35px;
+}
+
+.review-content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.review-content h5 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #c6c6c6;
+    padding-bottom: 10px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 44px;
+    left: 49%;
+    z-index: 99;
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #0D6785;
+}
+
+.slick-dots li button {
+    color: transparent;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FFBD2F;
+    border: none;
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.slick-dots li.slick-active button {
+    opacity: 1;
+}
+
+/*=====================================
+|   |   |    review css end | |   |   |
+=========================================*/
+
+
+/*=====================================
+|   |   |    team css end | |   |   |
+=========================================*/
+#team {
+    padding: 80px 0;
+    background-color: #0B4C61;
+}
+
+.team-wrapper {
+    background-color: #0C5F79;
+    border-radius: 20px;
+    padding: 80px 0;
+}
+
+.team-left h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 60px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+
+.team-left button {
+    width: 230px;
+    height: 52px;
+    border: none;
+    background-color: #FF3A44;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 20px;
+
+}
+
+.team-right p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 28px;
+    margin-left: 20px;
+}
+
+/*=====================================
+|   |   |    team css end | |   |   |
+=========================================*/
+
+
+/*=====================================
+|   |   |    footer css start | |   |   |
+=========================================*/
+#footer {
+    background-color: #0B4C61;
+}
+
+.footer-wrapper {
+    padding: 50px 0;
+    border-top: 1px solid #196781;
+    border-bottom: 1px solid #196781;
+}
+
+.f-logo {
+    padding-bottom: 30px;
+}
+
+.f-first-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e6e6e6;
+    line-height: 24px;
+}
+
+.f-heading h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.f-second-content .f-mail {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e6e6e6;
+
+}
+
+.f-icon a i {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    color: #222222;
+    background-color: #fff;
+    line-height: 45px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.f-menu ul {
+    padding-left: 0;
+}
+
+.f-menu ul li {
+    padding-bottom: 20px;
+}
+
+.f-menu ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e6e6e6;
+    text-transform: capitalize;
+}
+
+.f-location p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e6e6e6;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.f-location h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e6e6e6;
+}
+
+.f-forth-line {
+    position: relative;
+}
+
+.f-line {
+    position: absolute;
+    right: -116px;
+    top: 110%;
+    height: 163px;
+}
+
+.f-line img {
+    height: 100%;
+}
+
+/*=====================================
+|   |   |    footer css end | |   |   |
+=========================================*/
+
+
+/* =====================================
+    |   |   |back to top css start
+    ===================================== */
+    .back-to-top {
+        position: fixed;
+        right: 15px;
+        bottom: 15px;
+        height: 40px;
+        width: 40px;
+        background-color: #FF3A44;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        border-radius: 50%;
+        z-index: 99999;
+        display: none;
+        transition: all linear 0.3s;
+        animation: btp 1s linear;
+    }
+    
+    .back-to-top i {
+        font-size: 20px;
+        color: #fff;
+    
+    }
+    
+    .back-to-top:hover {
+        background-color: rgb(80, 228, 92);
+        transform: scale(1.2);
+    }
+    
+    @keyframes btp {
+        0% {
+            bottom: 85%;
+            right: 15px;
+        }
+    
+        100% {
+            right: 15px;
+            bottom: 15px;
+        }
+    }
+    
+    /*--====================================
+    |   |   |   back to top css end|  |   |   |
+    ========================================= */
+
+    
+/*=====================================
+|   |   |    copyright css start | |   |   |
+=========================================*/
+#copy-right {
+    padding: 32px 0;
+    background-color: #0B4C61;
+}
+
+.copy h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #e6e6e6;
+}
+
+/*=====================================
+|   |   |    copyright css end | |   |   |
+=========================================*/

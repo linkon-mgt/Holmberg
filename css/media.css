@@ -1,0 +1,803 @@
+/*========================================================
+|   |   |    responsive for large start | |   |   |
+==========================================================*/
+@media(min-width:992px) and (max-width:1199px) {
+
+    /* navbar css start */
+    .sticky-menu {
+        padding: 10px 0;
+    }
+
+    /* navbar css end */
+
+
+    /* banner css start */
+
+    .banner-content h2 {
+        font-size: 44px;
+        line-height: 50px;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .banner-content p {
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    /* banner css end */
+
+
+    /* about css start*/
+    .heading h3 {
+        font-size: 33px;
+    }
+
+    .heading p {
+        padding: 0 50px;
+    }
+
+    .about-left,
+    .about-middle {
+        padding-bottom: 20px;
+    }
+
+    /* about css end */
+
+    /* static css start */
+    .static-content h4 {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .static-content p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    /* static css end */
+
+    /* review css start */
+    #review {
+        padding: 50px 0;
+    }
+
+
+    .review-content p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 15px;
+    }
+
+    .review-content h3 {
+        font-size: 18px;
+    }
+
+    .review-content h5 {
+        font-size: 15px;
+    }
+
+    .slick-dots {
+        bottom: 0px;
+    }
+
+    /* review css end */
+
+    /* team css start */
+
+    .team-left h4 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    /* team css end */
+
+
+
+    /* team css end */
+    .f-icon a i {
+        margin-right: 5px;
+    }
+
+    /* team css end */
+
+}
+
+/*========================================================
+|   |   |    responsive for large end | |   |   |
+==========================================================*/
+
+
+
+/*========================================================
+|   |   |    responsive for medium start | |   |   |
+==========================================================*/
+@media(min-width:768px) and (max-width:991px) {
+
+    /* navbar css start */
+    .offcanvas-body {
+        text-align: center;
+    }
+
+    .toogler-link {
+        background-color: #ffbd2f;
+        transition: all linear 0.3s;
+    }
+
+    .toogler-link:hover {
+        background-color: tomato;
+    }
+
+    .sign-up-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sticky-menu {
+        padding: 10px 0;
+    }
+
+
+    /* navbar css end */
+
+    /* banner css start */
+    #banner {
+        padding-top: 50px;
+
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 20px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .banner-content p {
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .banner-content button {
+        margin: auto;
+        display: block;
+    }
+
+    .banner-content {
+        margin-bottom: 40px;
+    }
+
+    /* banner css end */
+
+
+    /* about css start*/
+    .heading h3 {
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .heading p {
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .about-item-content i {
+        font-size: 27px;
+    }
+
+    .about-item-content h4 {
+        margin-bottom: 15px;
+    }
+
+    .about-item-content p {
+        padding-bottom: 40px;
+    }
+
+    /* about css end */
+
+
+    /* static css start */
+    .static-content h4 {
+        text-align: left;
+    }
+
+    .static-content p {
+        text-align: left;
+    }
+
+    /* static css end */
+
+    /* review css start */
+    #review {
+        padding: 50px 0;
+    }
+
+
+    .review-content p {
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 15px;
+    }
+
+    .review-content h3 {
+        font-size: 18px;
+    }
+
+    .review-content h5 {
+        font-size: 15px;
+    }
+
+    .slick-dots {
+        bottom: -50px;
+    }
+
+    /* review css end */
+
+
+    /* team css start */
+    #team {
+        padding: 60px 0;
+    }
+
+    .team-wrapper {
+        padding: 60px 0;
+    }
+
+    .team-left h4 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .team-right p {
+        font-size: 16px;
+    }
+
+    /* team css end */
+
+}
+
+/*========================================================
+|   |   |    responsive for medium end | |   |   |
+==========================================================*/
+
+
+/*========================================================
+|   |   |    responsive for small start | |   |   |
+==========================================================*/
+@media(min-width:576px) and (max-width:767px) {
+    html,body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    /* navbar css start */
+    .navbar {
+        padding: 25px 0;
+    }
+
+    .navbar-brand img {
+        transform: scale(0.9);
+    }
+
+    .btn-primary {
+        transform: scale(0.9);
+    }
+
+    .offcanvas-body {
+        text-align: center;
+    }
+
+    .toogler-link {
+        background-color: #ffbd2f;
+        transition: all linear 0.3s;
+    }
+
+    .toogler-link:hover {
+        background-color: tomato;
+    }
+
+    .sign-up-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sticky-menu {
+        padding: 7px 0;
+    }
+
+
+    /* navbar css end */
+
+
+    /* banner css start */
+    #banner {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+
+    .banner-content h2 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 20px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .banner-content p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .banner-content button {
+        margin: auto;
+        display: block;
+    }
+
+    .banner-content {
+        margin-bottom: 40px;
+    }
+
+    /* banner css end */
+
+
+
+    /* about css start*/
+    #about {
+        background-position: top right;
+    }
+
+    .heading h3 {
+        font-size: 26px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: 16px;
+        line-height: 32px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-item-content i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        margin-top: 30px;
+        margin-bottom: 17px;
+        font-size: 27px;
+    }
+
+    .about-item-content h4 {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+
+    .about-item-content p {
+        padding-bottom: 40px;
+    }
+
+    /* about css end */
+
+    /* service css start */
+    .service-number {
+        text-align: center;
+    }
+
+    .service-content h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .service-content p {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    /* service css end */
+
+    /* static css start */
+    .static-number {
+        margin: 10px auto;
+    }
+
+    .static-content h4 {
+        text-align: center;
+    }
+
+    .static-content p {
+        text-align: center;
+    }
+
+    /* static css end */
+
+
+    /* review css start */
+    #review {
+        padding: 50px 0;
+    }
+
+    .review-content p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+
+    .review-content h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .review-content h5 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .slick-dots {
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* review css end */
+
+
+    /* team css start */
+    #team {
+        padding: 50px 0;
+    }
+
+    .team-wrapper {
+        padding: 40px 0;
+    }
+
+    .team-left h4 {
+        font-size: 26px;
+        line-height: 45px;
+        text-align: center;
+        margin-left: 0;
+        padding: 0 70px 20px;
+    }
+
+    .team-left button {
+        margin: auto;
+        display: block;
+    }
+
+    .team-right p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    /* team css end */
+
+
+    /* footer css start */
+    .f-logo {
+        padding-bottom: 20px;
+    }
+
+    .f-heading h4 {
+        padding-bottom: 15px;
+    }
+
+    /* footer css end */
+}
+
+/*========================================================
+|   |   |    responsive for small end | |   |   |
+==========================================================*/
+
+
+/*========================================================
+|   |   |    responsive for xtra small start | |   |   |
+==========================================================*/
+@media(max-width:575.99px) {
+    html,body{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    /* navbar css start */
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .navbar-brand img {
+        transform: scale(0.7);
+    }
+
+    .btn-primary {
+        transform: scale(0.8);
+    }
+
+    .offcanvas-body {
+        text-align: center;
+    }
+
+    .toogler-link {
+        background-color: #ffbd2f;
+        transition: all linear 0.3s;
+    }
+
+    .toogler-link:hover {
+        background-color: tomato;
+    }
+
+    .sign-up-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sticky-menu {
+        padding: 5px 0;
+    }
+
+    /* navbar css end */
+
+
+    /* banner css start */
+    #banner {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+
+    .banner-content h2 {
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 20px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .banner-content p {
+        font-size: 13px;
+        line-height: 22px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .banner-content button {
+        width: 190px;
+        height: 40px;
+        font-size: 13px;
+        margin: auto;
+        display: block;
+    }
+
+    .banner-content {
+        margin-bottom: 40px;
+    }
+
+    /* banner css end */
+
+
+    /* about css start*/
+    #about {
+        background-position: top right;
+    }
+
+    .heading h3 {
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .heading p {
+        font-size: 14px;
+        line-height: 25px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-item-content i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 30px;
+        margin-bottom: 17px;
+        font-size: 27px;
+    }
+
+    .about-item-content h4 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 15px;
+    }
+
+    .about-item-content p {
+        padding-bottom: 40px;
+    }
+
+    /* about css end */
+
+
+    /* service css start */
+    .service-number {
+        text-align: center;
+    }
+
+    .service-content h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .service-content p {
+        text-align: center;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    /* service css end */
+
+
+    /* static css start */
+    .static-number {
+        margin: 10px auto;
+    }
+
+    .static-content h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .static-content p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* static css end */
+
+
+    /* review css start */
+    #review {
+        padding: 50px 0;
+    }
+
+    .review-content p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+
+    .review-content h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .review-content h5 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .slick-dots {
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* review css end */
+
+
+    /* team css start */
+    #team {
+        padding: 50px 0;
+    }
+
+    .team-wrapper {
+        padding: 40px 0;
+    }
+
+    .team-left h4 {
+        font-size: 26px;
+        line-height: 45px;
+        text-align: center;
+        margin-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .team-left button {
+        width: 190px;
+        height: 40px;
+        font-size: 13px;
+        margin: auto;
+        display: block;
+    }
+
+    .team-right p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    /* team css end */
+
+
+    /* footer css start */
+    .f-logo img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .f-logo {
+        padding-bottom: 20px;
+    }
+
+    .f-heading h4 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .f-second-content {
+        text-align: center;
+    }
+
+    .f-menu {
+        text-align: center;
+    }
+
+    .f-location {
+        text-align: center;
+    }
+
+    /* footer css end */
+
+
+    /* copyright css start */
+    .copy h6 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    /* copyright css end */
+}
+
+@media(min-width:523px) and (max-width:575.99px) {
+
+    /* banner part start*/
+    .banner-content h2 {
+        padding: 0 26px;
+    }
+
+    .banner-content p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    /* banner part end*/
+
+
+    /* service part start*/
+    .service-content p {
+        padding: 0px 50px;
+    }
+
+    /* service part end*/
+}
+
+/*========================================================
+|   |   |    responsive for xtra small end | |   |   |
+==========================================================*/
+
+/* =============================================
+|   |   |Back to top button responsive start
+================================================ */
+@media only screen and (max-width: 991px) {
+    .back-to-top {
+        display: none !important;
+    }
+}
+
+/* =============================================
+|   |   |Back to top button responsive end
+================================================ */
